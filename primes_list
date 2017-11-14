@@ -1,0 +1,19 @@
+# ask user for range
+my_limit = input('what is the limit? ')
+
+
+def list_primes(limit):
+    limit = int(limit)
+    primes = []
+    # append all of the primes to a list
+    for i in range(limit):
+        for j in range(1, i):
+            print(j)
+            if int(i % j) == 0:
+                break
+            else:
+                primes.append(i)
+    # return the list
+    return primes
+
+print(list_primes(my_limit))
