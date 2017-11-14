@@ -27,7 +27,7 @@ while True:
 	print("pot: ${}".format(pot))
 
 	if ch1 and ch2 and ch3 and ch4:
-		print("holy shit, you got yatzee and won ${}".format(pot))
+		print("dang, you got yatzee and won ${}".format(pot))
 		break
 	else:
 		print("you didn't win make another wager")
